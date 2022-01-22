@@ -6,6 +6,7 @@
 // @icon        https://www.chromium.org/_/rsrc/1354323194313/favicon.ico
 // @version     1.0
 // @author      laniusone
+// @license     BSD-3-Clause
 // @description Script meant for Ungoogled Chromium, but may be used with any browser to directly download Chrome Extensions from Chrome Web Store.
 // ==/UserScript==
 let bookmarklet = function () {location.href='https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion='+(navigator.appVersion.match(/Chrome\/(\S+)/)[1])+'&x=id%'+'3D'+(document.querySelector('a[href^="https://chrome.google.com/webstore/report/"]').pathname.match(/[^\/]+\/*$/)[0])+'%'+'26installsource%'+'3Dondemand%'+'26uc';};
