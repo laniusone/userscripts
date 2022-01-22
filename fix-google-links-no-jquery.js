@@ -6,6 +6,7 @@
 // @author       Lanius
 // @match        https://www.google.com/search?*
 // @icon         https://www.google.com/favicon.ico
+// @license      BSD-3-Clause
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
